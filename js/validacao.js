@@ -37,15 +37,11 @@ function Cadastro(form) {
 		form.codval.focus();
 		return false;
 	} 
-	alert("Cadastro Realizado com Sucesso");
 	
-	$(document).ready(function(){
-	    $("#enviar").click(function(){
-	        $("#myModal").modal();
-	        
-	        document.getElementById("nomecompleto").innerHTML = nome;
-	    });
-	});
+	alert("Cadastro Realizado com Sucesso");
+	window.location.href = 'https://fdolzanes1.github.io/AppForm/';
+	return true; 
+
 }
 
 
